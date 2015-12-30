@@ -10,7 +10,7 @@ BSD license, check license.txt for more information
 All text above must be included in any redistribution
 ****************************************/
 
-#include "Adafruit_GPS.h"
+#include "Adafruit_GPS_1.h"
 #include "math.h"
 #include <ctype.h>
 
