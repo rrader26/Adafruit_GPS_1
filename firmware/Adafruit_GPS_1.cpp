@@ -44,7 +44,7 @@ boolean Adafruit_GPS::parse(char *nmea) {
     if (sum != 0) {
       // bad checksum :(
       //return false;
-      Spark.publish("GPS", "{ error: \"bad checksum\"}", 60, PRIVATE );
+      //Spark.publish("GPS", "{ error: \"bad checksum\"}", 60, PRIVATE );
     }
   }
 
